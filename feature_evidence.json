@@ -1,0 +1,105 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-village-area-reference-throughout-the-site-to-kalaiya-10-wherever-a-village-or-locality-name-appears-hero-section-homepage-copy-footer-contact-page-about-page-and-any-other-location",
+      "featureTitle": "Update the village/area reference throughout the site to 'Kalaiya 10' wherever a village or locality name appears (hero section, homepage copy, footer, contact page, about page, and any other location).",
+      "files": [
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/pages/About.tsx",
+        "frontend/src/pages/Contact.tsx",
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-pharmacy-phone-number-to-9824284662-everywhere-it-appears-the-floatingactionbar-call-now-tel-link-the-whatsapp-wa-me-link-the-navigation-call-now-cta-button-the-footer-contact-section-and-the-contact-page-contact-info-cards",
+      "featureTitle": "Update the pharmacy phone number to '9824284662' everywhere it appears: the FloatingActionBar Call Now tel: link, the WhatsApp wa.me link, the Navigation 'Call Now' CTA button, the Footer contact section, and the Contact page contact info cards.",
+      "files": [
+        "frontend/src/components/FloatingActionBar.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/pages/Contact.tsx",
+        "frontend/src/pages/Home.tsx",
+        "frontend/src/pages/Products.tsx",
+        "frontend/src/pages/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-full-mailing-location-address-displayed-in-the-footer-and-contact-page-to-kalaiya-10-bara-nepal",
+      "featureTitle": "Update the full mailing/location address displayed in the Footer and Contact page to 'Kalaiya 10, Bara, Nepal'.",
+      "files": [
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-pharmacist-owner-name-displayed-on-the-about-us-page-and-any-other-page-where-a-staff-member-or-owner-name-appears-to-ahsan-ansari",
+      "featureTitle": "Update the pharmacist/owner name displayed on the About Us page and any other page where a staff member or owner name appears to 'Ahsan Ansari'.",
+      "files": [
+        "frontend/src/pages/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-seo-meta-tags-in-frontend-index-html-to-incorporate-the-real-location-details-update-the-meta-title-to-include-kalaiya-bara-nepal-and-the-meta-description-and-keywords-to-reference-kalaiya-10-bara-naturally",
+      "featureTitle": "Update the SEO meta tags in frontend/index.html to incorporate the real location details: update the meta title to include 'Kalaiya, Bara, Nepal' and the meta description and keywords to reference 'Kalaiya 10, Bara' naturally.",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

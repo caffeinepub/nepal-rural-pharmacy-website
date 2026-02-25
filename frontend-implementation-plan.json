@@ -1,0 +1,137 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update pharmacy contact details with real information",
+  "requirements": [
+    {
+      "id": "REQ-12",
+      "summary": "Update all village/locality references throughout the site to 'Kalaiya 10'",
+      "acceptanceCriteria": [
+        "The text 'Kalaiya 10' appears as the village/locality name in the hero section headline or subheading",
+        "Footer contact details show 'Kalaiya 10' as part of the address",
+        "No generic placeholder village name remains anywhere in the UI"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update the hero section headline or subheading to reference 'Kalaiya 10' as the locality, replacing any existing generic village or area placeholder text."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the contact details address to include 'Kalaiya 10' as the village/locality portion of the address, replacing any generic placeholder."
+        },
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Update the address info card to display 'Kalaiya 10' as part of the location, replacing any existing placeholder village or area name."
+        },
+        {
+          "path": "frontend/src/pages/About.tsx",
+          "operation": "modify",
+          "description": "Update any location references in the pharmacy story or community section to use 'Kalaiya 10', replacing generic placeholders if present."
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Update the pharmacy phone number to '9824284662' across all UI components",
+      "acceptanceCriteria": [
+        "The Call Now button links to 'tel:9824284662'",
+        "The WhatsApp button links to 'https://wa.me/9779824284662' (Nepal country code prefix)",
+        "The phone number '9824284662' is displayed in the footer and contact page",
+        "No old placeholder phone number remains anywhere in the UI"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/FloatingActionBar.tsx",
+          "operation": "modify",
+          "description": "Update the Call Now tel: link to 'tel:9824284662' and the WhatsApp wa.me link to 'https://wa.me/9779824284662' (using Nepal +977 country code)."
+        },
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Update the Call Now CTA button href to link to 'tel:9824284662', replacing any existing phone number."
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the phone number in the contact section to display and link to '9824284662'. Update any WhatsApp link to 'https://wa.me/9779824284662'."
+        },
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Update the phone and WhatsApp contact info cards to display '9824284662' with appropriate tel: and wa.me links (using +977 prefix for WhatsApp)."
+        },
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update any phone number references in the hero CTA buttons or contact information to '9824284662', replacing existing placeholders."
+        },
+        {
+          "path": "frontend/src/pages/Services.tsx",
+          "operation": "modify",
+          "description": "Update the contact CTA card phone and WhatsApp links to '9824284662' and 'https://wa.me/9779824284662' respectively."
+        },
+        {
+          "path": "frontend/src/pages/Products.tsx",
+          "operation": "modify",
+          "description": "Update any WhatsApp enquiry links in product category cards to 'https://wa.me/9779824284662', replacing existing phone numbers."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Update the full address to 'Kalaiya 10, Bara, Nepal' in Footer and Contact page",
+      "acceptanceCriteria": [
+        "Footer displays the address 'Kalaiya 10, Bara, Nepal'",
+        "Contact page address info card shows 'Kalaiya 10, Bara, Nepal'",
+        "No generic placeholder address remains"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Update the full mailing address in the contact details section to display 'Kalaiya 10, Bara, Nepal', replacing any existing placeholder address."
+        },
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "modify",
+          "description": "Update the address info card to display the complete address 'Kalaiya 10, Bara, Nepal', replacing any generic placeholder."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Update the pharmacist/owner name to 'Ahsan Ansari' on the About page",
+      "acceptanceCriteria": [
+        "The name 'Ahsan Ansari' appears in the About Us team/staff section",
+        "No generic placeholder staff name (e.g., 'Pharmacist Name') remains visible on any page"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/About.tsx",
+          "operation": "modify",
+          "description": "Update the team member or pharmacist name in the staff section to 'Ahsan Ansari', replacing any existing placeholder name. Ensure the name appears alongside the generated staff-pharmacist image (frontend/public/assets/generated/staff-pharmacist.dim_600x600.png)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Update SEO meta tags to incorporate 'Kalaiya, Bara, Nepal' location details",
+      "acceptanceCriteria": [
+        "The HTML <title> tag references 'Kalaiya' or 'Bara, Nepal'",
+        "The meta description mentions 'Kalaiya 10, Bara' or similar specific location",
+        "The meta keywords include 'Kalaiya', 'Bara', 'Nepal'"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the <title> tag to include 'Kalaiya, Bara, Nepal' (e.g., 'Arogya Pharmacy - Kalaiya, Bara, Nepal'). Update the meta description to naturally reference 'Kalaiya 10, Bara'. Update meta keywords to include 'Kalaiya', 'Bara', 'Nepal'. Update og:title and og:description to reflect the location as well."
+        }
+      ]
+    }
+  ]
+}

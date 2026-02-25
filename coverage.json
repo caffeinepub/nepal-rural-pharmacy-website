@@ -1,0 +1,109 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-25T09:34:46.177Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 5,
+    "implemented": 5,
+    "items": [
+      {
+        "id": "REQ-12",
+        "summary": "Update the village/area reference throughout the site to 'Kalaiya 10' wherever a village or locality name appears (hero section, homepage copy, footer, contact page, about page, and any other location).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/pages/Contact.tsx",
+          "frontend/src/pages/About.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/pages/Contact.tsx",
+          "frontend/src/pages/About.tsx"
+        ]
+      },
+      {
+        "id": "REQ-13",
+        "summary": "Update the pharmacy phone number to '9824284662' everywhere it appears: the FloatingActionBar Call Now tel: link, the WhatsApp wa.me link, the Navigation 'Call Now' CTA button, the Footer contact section, and the Contact page contact info cards.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/FloatingActionBar.tsx",
+          "frontend/src/components/Navigation.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/pages/Contact.tsx",
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/pages/Services.tsx",
+          "frontend/src/pages/Products.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/FloatingActionBar.tsx",
+          "frontend/src/components/Navigation.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/pages/Contact.tsx",
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/pages/Services.tsx",
+          "frontend/src/pages/Products.tsx"
+        ]
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Update the full mailing/location address displayed in the Footer and Contact page to 'Kalaiya 10, Bara, Nepal'.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/pages/Contact.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/pages/Contact.tsx"
+        ]
+      },
+      {
+        "id": "REQ-15",
+        "summary": "Update the pharmacist/owner name displayed on the About Us page and any other page where a staff member or owner name appears to 'Ahsan Ansari'.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/About.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/About.tsx"
+        ]
+      },
+      {
+        "id": "REQ-16",
+        "summary": "Update the SEO meta tags in frontend/index.html to incorporate the real location details: update the meta title to include 'Kalaiya, Bara, Nepal' and the meta description and keywords to reference 'Kalaiya 10, Bara' naturally.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/index.html"
+        ],
+        "matchedFiles": [
+          "frontend/index.html"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/FloatingActionBar.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Navigation.tsx",
+    "frontend/src/pages/About.tsx",
+    "frontend/src/pages/Contact.tsx",
+    "frontend/src/pages/Home.tsx",
+    "frontend/src/pages/Products.tsx",
+    "frontend/src/pages/Services.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

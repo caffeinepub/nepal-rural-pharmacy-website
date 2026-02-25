@@ -1,0 +1,17 @@
+{
+  "frontend/index.html": "HTML entry point with SEO meta tags updated — title, description, keywords, og:title, and og:description all reference \"Kalaiya 10, Bara, Nepal\" and phone number 9824284662.",
+  "frontend/src/index.css": "Global CSS with OKLCH color system featuring primary green (health/nature) and saffron/orange accent (CTAs), custom font families, tap-target utility, hero gradient, and 16px base font size.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Poppins/Nunito font families, custom pharmacy green and saffron color palettes, enhanced border radii, card shadow utilities, and fade-in animation.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration — useSubmitInquiry mutation and useGetInquiries query wrapping the Motoko backend's submitInquiry and getInquiries methods.",
+  "frontend/src/components/Navigation.tsx": "Sticky top navigation bar with pharmacy logo, desktop inline links, mobile hamburger menu, and a Call Now CTA button linking to phone number 9824284662.",
+  "frontend/src/components/FloatingActionBar.tsx": "Persistent floating action bar with Call Now (tel:9824284662) and WhatsApp (wa.me/9779824284662) buttons — full-width bar on mobile, floating circular buttons on desktop.",
+  "frontend/src/components/ServicesSection.tsx": "Reusable grid component displaying 6 pharmacy services (Medicine Sales, Home Delivery, Health Advice, Quick Service, Genuine Medicines, Community Care) with icons, colors, and descriptions; supports compact mode for homepage.",
+  "frontend/src/components/Footer.tsx": "Site footer with pharmacy branding, quick navigation links, contact info showing address \"Kalaiya 10, Bara, Nepal\" and phone 9824284662, copyright year, and caffeine.ai attribution.",
+  "frontend/src/pages/Home.tsx": "Homepage hero updated to reference \"Kalaiya 10\" in the badge, h1 heading, subheading, and services section; all phone/WhatsApp links updated to 9824284662 / 9779824284662.",
+  "frontend/src/pages/About.tsx": "About Us page with pharmacy story referencing Kalaiya 10 and Bara, Nepal, team member updated to \"Ahsan Ansari\" (Head Pharmacist), and a 6-item \"Why Trust Us\" grid with local references.",
+  "frontend/src/pages/Services.tsx": "Services page with hero description referencing \"Kalaiya 10, Bara, Nepal\" and contact CTA card with updated phone 9824284662 and WhatsApp 9779824284662.",
+  "frontend/src/pages/Products.tsx": "Products & Categories page with all WhatsApp enquiry links updated to use number 9779824284662 (Nepal +977 prefix).",
+  "frontend/src/pages/HealthTips.tsx": "Health Tips blog page with 4 expandable article cards (Monsoon, Children's Nutrition, First Aid, Medicine Storage), each with illustration image, summary, and inline Read More toggle.",
+  "frontend/src/pages/Contact.tsx": "Contact & Order page with address card showing \"Kalaiya 10, Bara, Nepal\", phone 9824284662, WhatsApp 9779824284662, and address placeholder updated to \"Kalaiya 10, Bara\".",
+  "frontend/src/App.tsx": "Main app component with TanStack Router setup, Layout component (Navigation + Outlet + Footer + FloatingActionBar), and routes for all 6 pages (/, /about, /services, /products, /health-tips, /contact)."
+}

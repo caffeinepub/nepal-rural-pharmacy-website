@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Mobile-friendly pharmacy website for Arogya Pharmacy in Kalaiya 10, Bara, Nepal. Features a homepage with CTAs, About Us page, Services section, Products & Categories, Health Tips blog, Contact/Order form, SEO local targeting, and clean colorful mobile-first design. Real pharmacy details: village/area = Kalaiya 10, phone = 9824284662, address = Kalaiya 10, Bara, Nepal, pharmacist/owner = Ahsan Ansari.",
+  "architectural_notes": [
+    "Mobile-first responsive design required — must work well on low-end smartphones",
+    "WhatsApp/phone CTA buttons must be persistent/visible on every page",
+    "SEO: include Nepal village-specific local phrases in meta tags and content",
+    "Real pharmacy details: Name=Arogya, Village/Area=Kalaiya 10, Phone=9824284662, Address=Kalaiya 10 Bara Nepal, Owner/Pharmacist=Ahsan Ansari"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-build-a-mobile-first-homepage-with-a-friendly-headline-trusted-pharmacy-in-your-village-nepal-three-prominent-cta-buttons-call-whatsapp-order-medicine-health-tips-a-hero-banner-with-pharmacy-health-visuals-and-highlight-cards-for-key-services-medicine-sales-home-delivery-health-checks",
+      "title": "Build a mobile-first Homepage with a friendly headline ('Trusted Pharmacy in Your Village, Nepal'), three prominent CTA buttons (Call / WhatsApp, Order Medicine, Health Tips), a hero banner with pharmacy/health visuals, and highlight cards for key services (Medicine Sales, Home Delivery, Health Checks).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-an-about-us-page-with-a-short-simple-language-intro-paragraph-placeholder-pharmacy-and-staff-photo-slots-and-a-why-trust-us-section-listing-community-focused-trust-points-years-of-service-licensed-pharmacists-local-knowledge",
+      "title": "Build an About Us page with a short, simple-language intro paragraph, placeholder pharmacy and staff photo slots, and a 'Why Trust Us' section listing community-focused trust points (years of service, licensed pharmacists, local knowledge).",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-section-reachable-from-navigation-and-embedded-on-the-homepage-listing-medicine-sale-home-delivery-and-health-advice-each-with-a-descriptive-icon-and-a-two-sentence-explanation",
+      "title": "Build a Services section (reachable from navigation and embedded on the Homepage) listing Medicine Sale, Home Delivery, and Health Advice, each with a descriptive icon and a two-sentence explanation.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-products-and-categories-page-showing-at-least-five-medicine-categories-painkillers-vitamins-and-supplements-children-s-medicines-cold-and-flu-first-aid-each-with-a-category-image-short-description-and-an-enquire-button",
+      "title": "Build a Products and Categories page showing at least five medicine categories (Painkillers, Vitamins and Supplements, Children's Medicines, Cold and Flu, First Aid) each with a category image, short description, and an Enquire button.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-health-tips-blog-section-with-at-least-four-sample-article-cards-covering-monsoon-health-tips-children-s-nutrition-first-aid-basics-and-safe-medicine-storage-each-card-has-a-title-illustration-image-two-sentence-summary-and-a-read-more-toggle-to-reveal-the-full-article-text",
+      "title": "Build a Health Tips blog section with at least four sample article cards covering Monsoon Health Tips, Children's Nutrition, First Aid Basics, and Safe Medicine Storage. Each card has a title, illustration image, two-sentence summary, and a Read More toggle to reveal the full article text.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-contact-and-order-page-with-a-simple-form-name-phone-number-village-address-message-or-prescription-request-that-stores-submissions-in-the-backend-and-shows-a-confirmation-message-on-success",
+      "title": "Build a Contact and Order page with a simple form (Name, Phone Number, Village/Address, Message or Prescription Request) that stores submissions in the backend and shows a confirmation message on success.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-persistent-floating-action-bar-visible-on-every-page-with-two-buttons-call-now-tel-link-and-whatsapp-wa-me-link-the-bar-should-stick-to-the-bottom-of-the-screen-on-mobile",
+      "title": "Add a persistent floating action bar visible on every page with two buttons: Call Now (tel: link) and WhatsApp (wa.me link). The bar should stick to the bottom of the screen on mobile.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-seo-meta-tags-to-the-html-head-a-meta-title-trusted-pharmacy-in-rural-nepal-medicine-delivery-and-health-advice-and-meta-description-affordable-medicines-and-home-delivery-for-rural-families-in-nepal-find-painkillers-vitamins-children-s-medicines-and-local-health-tips-at-your-village-pharmacy-embed-local-keyword-phrases-naturally-in-homepage-copy",
+      "title": "Add SEO meta tags to the HTML head: a meta title ('Trusted Pharmacy in Rural Nepal | Medicine Delivery and Health Advice') and meta description ('Affordable medicines and home delivery for rural families in Nepal. Find painkillers, vitamins, children's medicines, and local health tips at your village pharmacy.'). Embed local keyword phrases naturally in homepage copy.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-clean-colorful-trustworthy-visual-theme-primary-green-2e7d32-for-health-and-nature-accent-saffron-orange-f57c00-for-ctas-and-highlights-warm-white-fafafa-backgrounds-and-readable-dark-gray-body-text-use-rounded-cards-generous-padding-and-large-tap-targets-throughout-navigation-should-be-a-simple-top-bar-with-a-hamburger-menu-on-mobile",
+      "title": "Apply a clean, colorful, trustworthy visual theme: primary green (#2E7D32) for health and nature, accent saffron/orange (#F57C00) for CTAs and highlights, warm white (#FAFAFA) backgrounds, and readable dark-gray body text. Use rounded cards, generous padding, and large tap targets throughout. Navigation should be a simple top bar with a hamburger menu on mobile.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-all-instances-of-the-placeholder-pharmacy-name-throughout-the-entire-application-with-arogya-this-includes-the-navigation-logo-brand-text-page-titles-hero-section-headings-footer-branding-about-us-page-seo-meta-title-and-description-and-any-other-location-where-the-pharmacy-name-appears-as-text",
+      "title": "Replace all instances of the placeholder pharmacy name throughout the entire application with 'Arogya'. This includes the Navigation logo/brand text, page titles, hero section headings, footer branding, About Us page, SEO meta title and description, and any other location where the pharmacy name appears as text.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-village-area-reference-throughout-the-site-to-kalaiya-10-wherever-a-village-or-locality-name-appears-hero-section-homepage-copy-footer-contact-page-about-page-and-any-other-location",
+      "title": "Update the village/area reference throughout the site to 'Kalaiya 10' wherever a village or locality name appears (hero section, homepage copy, footer, contact page, about page, and any other location).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-pharmacy-phone-number-to-9824284662-everywhere-it-appears-the-floatingactionbar-call-now-tel-link-the-whatsapp-wa-me-link-the-navigation-call-now-cta-button-the-footer-contact-section-and-the-contact-page-contact-info-cards",
+      "title": "Update the pharmacy phone number to '9824284662' everywhere it appears: the FloatingActionBar Call Now tel: link, the WhatsApp wa.me link, the Navigation 'Call Now' CTA button, the Footer contact section, and the Contact page contact info cards.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-full-mailing-location-address-displayed-in-the-footer-and-contact-page-to-kalaiya-10-bara-nepal",
+      "title": "Update the full mailing/location address displayed in the Footer and Contact page to 'Kalaiya 10, Bara, Nepal'.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-pharmacist-owner-name-displayed-on-the-about-us-page-and-any-other-page-where-a-staff-member-or-owner-name-appears-to-ahsan-ansari",
+      "title": "Update the pharmacist/owner name displayed on the About Us page and any other page where a staff member or owner name appears to 'Ahsan Ansari'.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-seo-meta-tags-in-frontend-index-html-to-incorporate-the-real-location-details-update-the-meta-title-to-include-kalaiya-bara-nepal-and-the-meta-description-and-keywords-to-reference-kalaiya-10-bara-naturally",
+      "title": "Update the SEO meta tags in frontend/index.html to incorporate the real location details: update the meta title to include 'Kalaiya, Bara, Nepal' and the meta description and keywords to reference 'Kalaiya 10, Bara' naturally.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage with headline, service highlights, CTA buttons (Call/WhatsApp, Order Medicine, Health Tips), and visuals",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Us page with friendly intro, pharmacy/staff photos, and community trust messaging",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services section listing medicine sale, home delivery, health advice with simple icons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Products & Categories section showing medicine categories (painkillers, vitamins, children's medicines) with images and descriptions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Health Tips blog section with simple health advice, local health issues, seasonal tips, and visual illustrations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact & Order form for prescription requests/questions with persistent WhatsApp/phone buttons on every page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "SEO local targeting with Nepal/village-specific phrases and meta title/description",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Clean colorful mobile-first design with trustworthy color scheme, engaging health/care graphics, and simple navigation",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Nepal Rural Pharmacy Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
